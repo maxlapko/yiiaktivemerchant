@@ -1,8 +1,7 @@
-Wrapper for aktive merchant libary
+Yii wrapper component for aktive merchant library
+Source: https://github.com/akDeveloper/Aktive-Merchant
 
-source: https://github.com/akDeveloper/Aktive-Merchant
-
-Requirements
+Requirements:
 - PHP 5.3.3+
 - cUrl
 - SimpleXML
@@ -31,7 +30,7 @@ Requirements
 
 ```
 
-Usage
+Usage:
 
 ```php
 $payment = Yii::app()->getComponent('payment');
